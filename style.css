@@ -20,4 +20,15 @@ header {
 h2 {
   margin-bottom: 20px;
   margin-left: 20px;
+  display: block;
+}
+
+section {
+  text-align: center;
+  display: flex;
+}
+
+article {
+  text-align: left;
+  display: block;
 }
