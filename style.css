@@ -1,6 +1,23 @@
+* {
+  margin: 0;
+}
+
 :root {
-    --primary-color: #2C5953;
-    --secondary-color: #CBDEC7;
-    --light: #ffeeee;
-    --dark: #112211;
+  --primary-color: #2c5953;
+  --secondary-color: #cbdec7;
+  --light: #ffeeee;
+  --dark: #112211;
+}
+
+header {
+  background-color: var(--secondary-color);
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+/* margin des titres */
+
+h2 {
+  margin-bottom: 20px;
+  margin-left: 20px;
 }
