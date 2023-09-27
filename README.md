@@ -1,3 +1,7 @@
 # Project-P1
 
-Essai seb
+Description du projet :
+
+Description de la Team (+ liens Linkdn) :
+
+Tableau des tâches :
