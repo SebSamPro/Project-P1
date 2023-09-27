@@ -12,5 +12,5 @@ Description de la Team (+ liens Linkdn) :
 
 # Répartition des tâches
 
-
-
+| Cyril | Seb | Julien |
+| :-------- |:--------:| -------:|
