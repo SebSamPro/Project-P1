@@ -8,12 +8,11 @@ Description de la Team (+ liens Linkdn) :
 
 - Samyn Sébastien
 - Ozarowski Julien
-- Daburen Cyril
+- Daburon Cyril
 
-Répartition des tâches 
+Répartition des tâches
 
-
-O Créer le projet sur Github, et le télécharger sur chaques PC de l’équipe 
+O Créer le projet sur Github, et le télécharger sur chaques PC de l’équipe
 
 HTML :
 
@@ -23,9 +22,9 @@ O Créer le contenu de chaques fiches de restaurant (Images et textes, nom des r
 O Créer le logo,
 O Désignation des catégories de filtres,
 O Créer contenus des vignettes (img, texte, catégories/types, prix, distance…)
-O Chercher adresse sites internet des restaurants, 
+O Chercher adresse sites internet des restaurants,
 O Créer des liens dans chaque fiche
-O Créer des liens google maps pour la localisation des restaurants 
+O Créer des liens google maps pour la localisation des restaurants
 O Créer NavBar
 O Créer Footer
 
@@ -38,6 +37,6 @@ O Créer filtres des restaurants
 
 JAVASCRIPT :
 
-O Comment créer un carrousel 
+O Comment créer un carrousel
 O Créer filtres des restaurants
 O Créer quelques animations lors du passages de la souris (grossissements, etc…)
