@@ -8,7 +8,6 @@ Description de la Team (+ liens Linkdn) :
 
 - Samyn Sébastien
 - Ozarowski Julien
-- Daburen Cyril
+- Daburon Cyril
 
 Tableau des tâches :
-
