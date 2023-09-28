@@ -99,12 +99,21 @@ article {
   font-family: "inter";
   font-size: 0.9rem;
 }
+
+footer {
+  display: flex;
+  background-color: var(--secondary-color);
+  align-items: center;
+  padding: 5px;
+  justify-content: flex-start;
+  position: absolute;
+  width: 100%;
+}
 footer p {
   font-size: 2em;
   margin-left: 20px;
   margin-right: auto;
 }
-
 footer img {
   height: 30px;
   width: 30px;
