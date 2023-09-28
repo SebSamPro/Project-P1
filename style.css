@@ -28,15 +28,29 @@ header {
 
 /* margin des titres */
 
-h3 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+section > h2 {
+  margin-left: 20px;
+  font-family: "inter";
+  font-size: 2rem;
+}
+
+section {
+  margin-bottom: 4rem;
+}
+
+article > h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "outfit";
+  font-size: 1.3rem;
+
 }
 
 ul {
   margin-top: 10px;
   list-style-type: circle;
   padding-left: 20px;
+  font-size: 0.8rem;
 }
  
 img {
@@ -48,7 +62,7 @@ img {
 
 div {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     gap: 40px;
     margin: 20px;
     flex-wrap: wrap;
@@ -60,4 +74,10 @@ article {
     padding: 20px;
     border-radius: 40px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-family: "inter";
+    font-size: 0.9rem;
+}
+
+ {
+  
 }
