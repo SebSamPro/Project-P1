@@ -10,6 +10,11 @@
   --backgroundbody: #f5eee6;
 }
 
+.imgLogoWildEats {
+  width: 300px;
+  height: 200px;
+}
+
 body {
   box-sizing: border-box;
   background-color: var(--backgroundbody);
@@ -30,6 +35,8 @@ h3 {
 
 ul {
   margin-top: 10px;
+  list-style-type: circle;
+  padding-left: 20px;
 }
 
 img {
@@ -54,7 +61,6 @@ article {
   border-radius: 40px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-
 footer {
   display: flex;
   background-color: var(--secondary-color);
