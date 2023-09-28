@@ -15,7 +15,7 @@
   height: 150px;
   padding: 10px;
   grid-column: 1;
-  grid-row:2;
+  grid-row: 2;
 }
 
 body {
@@ -50,6 +50,7 @@ section > h2 {
   margin-left: 20px;
   font-family: "inter";
   font-size: 2rem;
+  margin-bottom: 40px;
 }
 
 section {
@@ -86,7 +87,7 @@ div {
 }
 
 article:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   transition: 0.5s;
 }
 
