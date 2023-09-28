@@ -16,6 +16,7 @@
   padding: 10px;
   grid-column: 1;
   grid-row:2;
+  grid-template-columns: 25% 75%;
 }
 
 body {
