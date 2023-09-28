@@ -1,31 +1,36 @@
 * {
-  margin: 0;
+    margin: 0;
 }
 
 :root {
-  --primary-color: #2c5953;
-  --secondary-color: #cbd0b9;
-  --light: #ffeeee;
-  --dark: #112211;
-  --backgroundbody: #f5eee6;
+    --primary-color: #2c5953;
+    --secondary-color: #cbd0b9;
+    --light: #ffeeee;
+    --dark: #112211;
+    --backgroundbody: #f5eee6;
+}
+
+.imgLogoWildEats {
+    width: 300px;
+    height: 200px;
 }
 
 body {
-  box-sizing: border-box;
-  background-color: var(--backgroundbody);
+    box-sizing: border-box;
+    background-color: var(--backgroundbody);
 }
 
 header {
-  background-color: var(--secondary-color);
-  padding: 20px;
-  margin-bottom: 30px;
+    background-color: var(--secondary-color);
+    padding: 20px;
+    margin-bottom: 30px;
 }
 
 /* margin des titres */
 
 h3 {
-  margin-top: 10px;
-  margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 ul {
@@ -35,25 +40,24 @@ ul {
 }
  
 img {
-  width: 100%;
-  height: 50%;
-  object-fit: cover;
-  border-radius: 20px;
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 20px;
 }
 
 div {
-  display: flex;
-  justify-content: space-around;
-  gap: 40px;
-  margin: 20px;
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    margin: 20px;
+    flex-wrap: wrap;
 }
 
 article {
-  background-color: white;
-  max-width: 300px;
-  padding: 20px;
-  border-radius: 40px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+    max-width: 300px;
+    padding: 20px;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-
