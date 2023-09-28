@@ -1,64 +1,67 @@
 * {
-  margin: 0;
+    margin: 0;
 }
 
 :root {
-  --primary-color: #2c5953;
-  --secondary-color: #cbd0b9;
-  --light: #ffeeee;
-  --dark: #112211;
-  --backgroundbody: #f5eee6;
+    --primary-color: #2c5953;
+    --secondary-color: #cbd0b9;
+    --light: #ffeeee;
+    --dark: #112211;
+    --backgroundbody: #f5eee6;
 }
 
 .imgLogoWildEats {
     width: 150px;
     height: 150px;
     padding: 10px;
+    grid-column: 1;
+    grid-row: 2;
 }
 
 body {
-  box-sizing: border-box;
-  background-color: var(--backgroundbody);
+    box-sizing: border-box;
+    background-color: var(--backgroundbody);
 }
 
 header {
-  background-color: var(--secondary-color);
-  padding: 20px;
-  margin-bottom: 30px;
+    background-color: var(--secondary-color);
+    padding: 20px;
+    margin-bottom: 30px;
+    display: grid;
+}
+
+.titleWildEats {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.slogan {
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.titleWildEats .slogan {
+    margin-right: 300px;
 }
 
 /* margin des titres */
 
-section > h2 {
-  margin-left: 20px;
-  font-family: "inter";
-  font-size: 2rem;
-}
-
-section {
-  margin-bottom: 4rem;
-}
-
-article > h3 {
+h3 {
   margin-top: 10px;
   margin-bottom: 10px;
-  font-family: "outfit";
-  font-size: 1.3rem;
-
 }
 
 ul {
   margin-top: 10px;
   list-style-type: circle;
   padding-left: 20px;
-  font-size: 0.8rem;
 }
 
 img {
-  width: 100%;
-  height: 50%;
-  object-fit: cover;
-  border-radius: 20px;
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 20px;
 }
 
 div {
@@ -77,4 +80,15 @@ article {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     font-family: "inter";
     font-size: 0.9rem;
+}
+footer p {
+  font-size: 2em;
+  margin-left: 20px;
+  margin-right: auto;
+}
+
+footer img {
+  height: 30px;
+  width: 30px;
+  margin-right: 40px;
 }
