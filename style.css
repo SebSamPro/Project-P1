@@ -11,9 +11,9 @@
 }
 
 .imgLogoWildEats {
-    width: 150px;
-    height: 150px;
-    padding: 10px;
+  width: 150px;
+  height: 150px;
+  padding: 10px;
 }
 
 body {
@@ -53,6 +53,11 @@ div {
   gap: 40px;
   margin: 20px;
   flex-wrap: wrap;
+}
+
+article:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
 }
 
 article {
