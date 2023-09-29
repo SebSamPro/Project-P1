@@ -41,7 +41,8 @@ header {
     color: var(--primary-color);
     font-family: "inter";
     font-size: 1.5rem;
-    align-self: center;
+    align-self: auto;
+    font-style: italic;
 }
 
 body {
