@@ -51,7 +51,7 @@ body {
 
 /* margin des titres */
 
-section > h2 {
+section>h2 {
   margin-left: 20px;
   font-family: "inter";
   font-size: 2rem;
@@ -63,7 +63,7 @@ section {
   margin-bottom: 4rem;
 }
 
-article > h3 {
+article>h3 {
   margin-top: 10px;
   margin-bottom: 10px;
   font-family: "outfit";
@@ -106,6 +106,7 @@ article {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   font-family: "inter";
   font-size: 0.9rem;
+  transition: all 0.5s;
 }
 
 footer {
