@@ -39,7 +39,7 @@ header {
   grid-area: 2 / 2 / 3 / 3;
   color: var(--primary-color);
   font-family: "inter";
-  font-size: 2.5vw;
+  font-size: 2.8vw;
   align-self: auto;
   font-style: italic;
 }
@@ -92,10 +92,11 @@ div {
   flex-wrap: wrap;
 }
 
-article:hover {
+/* article:hover { 
   transform: scale(1.1);
   transition: 0.5s;
 }
+*/
 
 article {
   background-color: white;
