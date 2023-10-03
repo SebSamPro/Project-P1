@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  text-decoration: none;
 }
 
 :root {
@@ -42,6 +43,32 @@ header {
   font-size: 2.5vw;
   align-self: auto;
   font-style: italic;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  font-size: 1vw;
+  margin-bottom: 20px;
+  justify-content: flex-start;
+  
+}
+
+nav > ul {
+  display: flex;
+  gap: 40px;
+  align-self: center;
+  list-style: none;
+  font-size: 1vw;
+
+}
+
+nav > ul > li {
+  background-color: var(--secondary-color);
+  padding: 10px;
+  border: 2px solid var(--primary-color);
+  border-radius: 20px;
 }
 
 body {
@@ -90,6 +117,7 @@ div {
   gap: 40px;
   margin: 20px;
   flex-wrap: wrap;
+  position: relative;
 }
 
 article:hover {
@@ -133,6 +161,7 @@ footer img {
   padding-right: 10px;
 }
 
+
 /*@media screen and (max-width: 650px) {
   footer p {
     font-size: 1.5em;
@@ -155,3 +184,4 @@ footer img {
   .slogan {
   }
 }
+
