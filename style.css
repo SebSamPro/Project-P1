@@ -19,6 +19,10 @@ header {
   grid-column-gap: 0px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .imgLogoWildEats {
   max-width: 80%;
   height: auto;
@@ -51,19 +55,11 @@ body {
 
 /* margin des titres */
 
-section>h2 {
-  margin-left: 20px;
-  font-family: "inter";
-  font-size: 2rem;
-  margin-bottom: 40px;
-  color: #2c5953;
+nav {
+  margin-bottom: 2rem;
 }
 
-section {
-  margin-bottom: 4rem;
-}
-
-article>h3 {
+article>h2 {
   margin-top: 10px;
   margin-bottom: 10px;
   font-family: "outfit";
@@ -84,11 +80,12 @@ img {
   border-radius: 20px;
 }
 
-div {
+.restaurants-container {
   display: flex;
   justify-content: space-evenly;
   gap: 40px;
   margin: 20px;
+  margin-bottom: 4rem;
   flex-wrap: wrap;
 }
 
