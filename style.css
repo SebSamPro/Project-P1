@@ -17,6 +17,7 @@ header {
   grid-template-columns: 1fr 5fr;
   grid-template-rows: 2fr 1fr;
   grid-column-gap: 0px;
+  top: 0
 }
 
 a {
@@ -53,16 +54,14 @@ body {
   background-color: var(--backgroundbody);
 }
 
-/* margin des titres */
-
 /* Sidenav menu */
 .sidenav {
-  height: 35%;
-  width: 45%;
+  height: 70vw;
+  width: 45vw;
   position: fixed;
   z-index: 1;
   top: 90px;
-  right: -45%;
+  right: -45vw;
   background-color: var(--backgroundbody);
   opacity: 80%;
   padding-top: 60px;
@@ -81,7 +80,7 @@ body {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 5vw;
-  font-weight: 550;
+  font-weight: bold;
   font-family: "inter";
   color: var(--primary-color);
   display: block;
@@ -102,13 +101,14 @@ body {
   position: absolute;
   top: 0;
   right: 25px;
-  font-size: 36px;
+  font-size: 10vw;
+  font-family: "inter";
   color: var(--primary-color);
 }
 
 .burger-icon span {
   display: block;
-  width: 35px;
+  width: 30px;
   height: 5px;
   background-color: var(--primary-color);
   margin: 5px 0;
@@ -117,8 +117,6 @@ body {
   border-radius: 10px;
   
 }
-
-
 
 article>h2 {
   margin-top: 10px;
@@ -147,14 +145,10 @@ img {
   gap: 40px;
   margin: 20px;
   margin-bottom: 4rem;
+  margin-top: 2rem;
   flex-wrap: wrap;
 }
 
-/* article:hover { 
-  transform: scale(1.1);
-  transition: 0.5s;
-}
-*/
 
 article {
   background-color: white;
@@ -171,27 +165,30 @@ article {
 footer {
   display: flex;
   background-color: var(--secondary-color);
-  align-items: center;
-  padding: 5px;
+  height: auto;
   justify-content: flex-start;
-  position: absolute;
+  position: fixed;
+  bottom: 0;
   width: 100%;
-  padding-top: 10px;
+  padding: 5px;
+  align-items: center;
 }
 
 footer p {
-  font-size: 5vw;
-  margin-left: 20px;
+  font-size: 4vw;
+  font-family: "inter";
+  margin-left: 10px;
   margin-right: auto;
   color: var(--primary-color);
+
 }
 
 footer img {
   height: 4vw;
   width: 4vw;
-  margin-right: 10px;
-  padding-right: 10px;
-}
+  margin-right: 15px;
+  padding-right: 1vw;
+  margin-top: 3px;}
 
 /*@media screen and (max-width: 650px) {
   footer p {
