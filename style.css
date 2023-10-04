@@ -48,10 +48,8 @@ a {
   font-style: italic;
 }
 
-
 .menu-btns {
   display: flex;
-
 }
 
 body {
@@ -59,17 +57,71 @@ body {
   background-color: var(--backgroundbody);
 }
 
-
-
 /* margin des titres */
 
-nav {
-  margin-bottom: 2rem;
+/* Sidenav menu */
+.sidenav {
+  height: 35%;
+  width: 45%;
+  position: fixed;
+  z-index: 1;
+  top: 90px;
+  right: -45%;
+  background-color: var(--backgroundbody);
+  opacity: 80%;
+  padding-top: 60px;
+  border-radius: 20px;
+  transition: right 0.5s ease;
 }
 
+.sidenav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
 
+/* Sidenav menu links */
+.sidenav .btn a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 5vw;
+  font-weight: 550;
+  font-family: "inter";
+  color: var(--primary-color);
+  display: block;
+  transition: 0.3s;
+}
 
-article>h2 {
+.sidenav .btn:hover {
+  background-color: var(--secondary-color);
+}
+
+/* Active class */
+.sidenav.active {
+  right: 0;
+}
+
+/* Close btn */
+.sidenav .close {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  color: var(--primary-color);
+}
+
+.burger-icon span {
+  display: block;
+  width: 35px;
+  height: 5px;
+  background-color: var(--primary-color);
+  margin: 5px 0;
+  position: relative;
+  left: 85vw;
+  border-radius: 10px;
+}
+
+article > h2 {
   margin-top: 10px;
   margin-bottom: 10px;
   font-family: "outfit";
@@ -89,7 +141,6 @@ img {
   object-fit: cover;
   border-radius: 20px;
 }
-
 
 .restaurants-container {
   display: flex;
@@ -124,12 +175,10 @@ img {
   position: absolute;
   top: 0px;
   height: 93%;
-  
 }
 
 .card {
-
-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 .card:hover {
@@ -137,13 +186,12 @@ transition: all 0.5s ease;
   transition: 1s;
 }
 
-.card:active .content { 
+.card:active .content {
   transform: rotateY(180deg);
   transition: transform 0.5s ease;
   background-color: white;
   backface-visibility: hidden;
   border-radius: 40px;
-
 }
 
 .burger {
