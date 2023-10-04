@@ -11,36 +11,36 @@ const italian = document.querySelectorAll(".burger, .japanese");
 const budget = document.querySelectorAll(".pricy");
 const near = document.querySelectorAll(".far");
 
-btnAll.onclick = function() {
-    window.location.reload();
-}
-btnBurger.onclick = function() {
-    for (let i = 0; i < burger.length; i++) {
-        burger[i].remove();
-    }
-}
-btnJap.onclick = function() {
-    for (let i = 0; i < japanese.length; i++) {
-        japanese[i].remove();
-    }
-}
-btnIt.onclick = function() {
-    for (let i = 0; i < italian.length; i++) {
-        italian[i].remove();
-    }
-}
-btnBudget.onclick = function() {
-    for (let i = 0; i < budget.length; i++) {
-        budget[i].remove();
-    }
-}
-btnNear.onclick = function() {
-    for (let i = 0; i < near.length; i++) {
-        near[i].remove();
-    }
-}
+btnAll.onclick = function () {
+  window.location.reload();
+};
+btnBurger.onclick = function () {
+  for (let i = 0; i < burger.length; i++) {
+    burger[i].remove();
+  }
+};
+btnJap.onclick = function () {
+  for (let i = 0; i < japanese.length; i++) {
+    japanese[i].remove();
+  }
+};
+btnIt.onclick = function () {
+  for (let i = 0; i < italian.length; i++) {
+    italian[i].remove();
+  }
+};
+btnBudget.onclick = function () {
+  for (let i = 0; i < budget.length; i++) {
+    budget[i].remove();
+  }
+};
+btnNear.onclick = function () {
+  for (let i = 0; i < near.length; i++) {
+    near[i].remove();
+  }
+};
 
+const article1 = document.querySelector(".burger");
+const back = document.querySelector(".back");
 
-
-
-
+article1.addEventListener("click", function () {});
