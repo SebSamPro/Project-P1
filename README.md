@@ -1,8 +1,8 @@
-git# Project-P1
+git# Project-P1 
 
 Description du projet :
 
-Créer un site internet avec les restaurants à proximité de la WildCodeSchool.
+"Créer un site internet avec les restaurants à proximité de la WildCodeSchool."
 
 Description de la Team (+ liens Linkdn) :
 
@@ -12,27 +12,23 @@ Description de la Team (+ liens Linkdn) :
 
 # Tableau des Tâches
 
-| Tâche à Affecter                  | Seb  | Cyril | Julien |
-| --------------------------------- | ---- | ----- | ------ |
-| Création de la NAVBAR             |      |       |        |
-| Création du FOOTER                |      |       |        |
-| Création du BODY                  |      |       |        |
-| Style du FOOTER                   |      |       |        |
-| Style de la NAV                   |      |       |        |
-| Style du body                     |      |       |        |
-|             |      |       |        |
-| Développement de fonctionnalités  |      |       |        |
-| Tests d'acceptation               |      |       |        |
-| Révision du code                  |      |       |        |
-| Développement de fonctionnalités  |      |       |        |
-| Tests d'acceptation               |      |       |        |
-| Révision du code                  |      |       |        |
-| Développement de fonctionnalités  |      |       |        |
-| Tests d'acceptation               |      |       |        |
-| Révision du code                  |      |       |        |
-| Développement de fonctionnalités  |      |       |        |
-| Tests d'acceptation               |      |       |        |
-| Révision du code                  |      |       |        |
-| Développement de fonctionnalités  |      |       |        |
-| Tests d'acceptation               |      |       |        |
-
+__________________________________________________________________________
+| Tâche à Affecter                               | Seb  | Cyril | Julien |
+| ---------------------------------------------- | ---- | ----- | ------ |
+| Création de la NAVBAR                          |      |       |        |
+| Création du FOOTER                             |      |       |        |
+| Création du BODY                               |      |       |        |
+| Style du FOOTER                                |      |       |        |
+| Style de la NAV                                |      |       |        |
+| Style du body                                  |      |       |        |
+| Recherche des Images                           |      |       |        |
+| Création du menu                               |      |       |        |
+| Création function menu                         |      |       |        |
+| Remplir fichier READ.ME                        |      |       |        |
+| Création des vignettes "article"               |      |       |        |
+| Création du LOGO                               |      |       |        |
+| Créer fonction Flip des "article"              |      |       |        |
+| Codage Javascript de la fonction FILTRE        |      |       |        |
+| Adaptation de la version MOBILE vers DESKTOP   |      |       |        |
+| ---------------------------------------------- | ---- | ----- | ------ |
+__________________________________________________________________________

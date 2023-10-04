@@ -190,26 +190,3 @@ footer img {
   margin-right: 10px;
   padding-right: 10px;
 }
-
-/*@media screen and (max-width: 650px) {
-  footer p {
-    font-size: 1.5em;
-  }
-
-  footer img {
-    height: 30px;
-    width: 30px;
-    margin-right: 40px;
-  }
-
-  .imgLogoWildEats {
-    width: 150px;
-    height: 150px;
-  }
-
-  .titleWildEats {
-  }
-
-  .slogan {
-  }
-}
