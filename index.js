@@ -90,9 +90,9 @@ const cards = document.querySelectorAll(".card");
   });
 });
 
-
-const button = document.querySelectorAll(".btn"); 
-  for (let i = 0; i < button.length; i++) {
-button[i].addEventListener('click', function() {
-   button[i].classList.toggle('isClicked')
-})};
+const button = document.querySelectorAll(".btn");
+for (let i = 0; i < button.length; i++) {
+  button[i].addEventListener("click", function () {
+    button[i].classList.toggle("isClicked");
+  });
+}
