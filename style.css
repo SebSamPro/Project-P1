@@ -68,7 +68,7 @@ body {
   background-color: var(--backgroundbody);
   opacity: 80%;
   padding-top: 4rem;
-  border-radius: 20px;
+  border-radius: 20px 0 0 20px;
   transition: right 0.5s ease;
 }
 
@@ -142,21 +142,21 @@ body {
   flex-wrap: wrap;
 }
 
-.card__face > h2 {
+.card__face>h2 {
   margin-top: 10px;
   margin-bottom: 10px;
   font-family: "outfit";
   font-size: 1.3rem;
 }
 
-.card__face > ul {
+.card__face>ul {
   margin-top: 10px;
   list-style-type: circle;
   padding-left: 20px;
   font-size: 0.8rem;
 }
 
-.card__face > img {
+.card__face>img {
   width: 100%;
   height: 12rem;
   object-fit: cover;
@@ -208,7 +208,7 @@ footer {
 footer p {
   font-size: 4vw;
   font-family: "inter";
-  margin-left: 10px;
+  margin-left: 1.5rem;
   margin-right: auto;
   color: var(--primary-color);
 }
@@ -216,38 +216,29 @@ footer p {
 footer img {
   height: 4vw;
   width: 4vw;
-  margin-right: 15px;
-  padding-right: 1vw;
+  margin-right: 1rem;
+  padding-right: 1rem;
   margin-top: 3px;
 }
 
 @media screen and (min-width: 800px) {
   header {
-    margin-bottom: 30px;
-    grid-template-columns: 100px 5fr;
+    grid-template-columns: 6.2rem 5fr;
   }
 
   .imgLogoWildEats {
     max-width: 70%;
     height: auto;
-    padding: 15px;
+    padding: 1rem;
   }
 
   .titleWildEats {
-    grid-area: 1 / 2 / 2 / 3;
-    align-self: center;
-    color: var(--primary-color);
-    font-family: "kavoon";
     font-size: 3rem;
   }
 
   .slogan {
     grid-area: 2 / 2 / 3 / 3;
-    color: var(--primary-color);
-    font-family: "inter";
     font-size: 1rem;
-    align-self: auto;
-    font-style: italic;
   }
 
   .sidenav {
@@ -258,24 +249,21 @@ footer img {
     top: 0;
     left: 0;
     padding-top: 0px;
-    margin-bottom: 40px;
-    background-color: var(--backgroundbody);
+    margin-bottom: 3rem;
     border-radius: 0px;
   }
 
   .sidenav ul {
-    list-style-type: none;
     padding: 0;
     margin: 0;
-    margin-left: 80px;
+    margin-left: 5rem;
     display: inline-flex;
   }
 
-  /* Sidenav menu links */
   .sidenav .btn a {
-    padding: 6px 12px 6px 12px;
+    padding: 0.4rem 0.8rem 0.4rem 0.8rem;
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: normal;
     font-family: "inter";
     color: var(--primary-color);
@@ -294,65 +282,34 @@ footer img {
     transition: 0.3s ease;
   }
 
-  /* Active class */
-  .sidenav.active {
-    right: 0;
-  }
-
-  /* Close btn */
   .sidenav .close {
     display: none;
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 2rem;
-    font-family: "inter";
-    color: var(--primary-color);
   }
 
   .burger-icon span {
     display: none;
-    width: 30px;
-    height: 5px;
-    background-color: var(--primary-color);
-    margin: 5px 0;
-    position: relative;
-    left: 20px;
-    border-radius: 10px;
   }
 
-  .card:hover {
+  .card__face--front {
+    transition: 0.6s ease;
+  }
+
+  .card__face--front:hover {
     transform: scale(1.1);
     transition: 1s;
-  }
-
-  footer {
-    display: flex;
-    background-color: var(--secondary-color);
-    height: auto;
-    justify-content: flex-start;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    padding: 5px;
-    align-items: center;
   }
 
   footer p {
     font-size: 1rem;
     font-family: "inter";
-    margin-left: 100px;
-    margin-right: auto;
-    color: var(--primary-color);
+    margin-left: 6.5rem;
   }
 
   footer img {
-    height: 20px;
-    width: 20px;
-    margin-right: 20px;
-    padding-right: 0px;
+    height: 1.3rem;
+    width: 1.3rem;
     margin-top: 3px;
     position: relative;
-    right: 100px;
+    right: 6rem;
   }
 }

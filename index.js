@@ -96,5 +96,3 @@ const button = document.querySelectorAll(".btn");
 button[i].addEventListener('click', function() {
    button[i].classList.toggle('isClicked')
 })};
-
-/* ✔️
