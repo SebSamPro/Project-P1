@@ -152,12 +152,6 @@ img {
   flex-wrap: wrap;
 }
 
-/* article:hover { 
-  transform: scale(1.1);
-  transition: 0.5s;
-}
-*/
-
 .content {
   transition: transform 1s;
   transform-style: preserve-3d;
@@ -180,11 +174,6 @@ img {
 
 .card {
   transition: all 0.5s ease;
-}
-
-.card:hover {
-  transform: scale(1.1);
-  transition: 1s;
 }
 
 .card:active .content {
@@ -242,4 +231,156 @@ footer img {
   margin-right: 15px;
   padding-right: 1vw;
   margin-top: 3px;
+}
+
+
+@media screen and (min-width: 800px) {
+
+  header {
+    background-color: var(--secondary-color);
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 100px 5fr;
+    grid-template-rows: 2fr 1fr;
+    grid-column-gap: 0px;
+    top: 0
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .imgLogoWildEats {
+    max-width: 70%;
+    height: auto;
+    padding: 15px;
+    grid-area: 1 / 1 / 3 / 2;
+    align-self: center;
+  }
+
+  .titleWildEats {
+    grid-area: 1 / 2 / 2 / 3;
+    align-self: center;
+    color: var(--primary-color);
+    font-family: "kavoon";
+    font-size: 3rem;
+  }
+
+  .slogan {
+    grid-area: 2 / 2 / 3 / 3;
+    color: var(--primary-color);
+    font-family: "inter";
+    font-size: 1rem;
+    align-self: auto;
+    font-style: italic;
+  }
+
+  .sidenav {
+    height: auto;
+    width: auto;
+    position: relative;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    padding-top: 0px;
+    margin-bottom: 40px;
+    background-color: var(--backgroundbody);
+    border-radius: 0px;
+
+  }
+
+  .sidenav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 80px;
+    display: inline-flex;
+  }
+
+  /* Sidenav menu links */
+  .sidenav .btn a {
+    padding: 6px 12px 6px 12px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: normal;
+    font-family: "inter";
+    color: var(--primary-color);
+    display: block;
+  }
+
+  .sidenav .btn {
+    border-radius: 16px;
+    transform: scale(1);
+    transition: 0.2s ease
+  }
+
+  .sidenav .btn:hover {
+    background-color: var(--secondary-color);
+    transform: scale(1.15);
+    transition: 0.3s ease;
+
+  }
+
+  /* Active class */
+  .sidenav.active {
+    right: 0;
+  }
+
+  /* Close btn */
+  .sidenav .close {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 2rem;
+    font-family: "inter";
+    color: var(--primary-color);
+  }
+
+  .burger-icon span {
+    display: none;
+    width: 30px;
+    height: 5px;
+    background-color: var(--primary-color);
+    margin: 5px 0;
+    position: relative;
+    left: 20px;
+    border-radius: 10px;
+  }
+
+  .card:hover {
+    transform: scale(1.1);
+    transition: 1s;
+  }
+
+  footer {
+    display: flex;
+    background-color: var(--secondary-color);
+    height: auto;
+    justify-content: flex-start;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 5px;
+    align-items: center;
+  }
+
+  footer p {
+    font-size: 1rem;
+    font-family: "inter";
+    margin-left: 100px;
+    margin-right: auto;
+    color: var(--primary-color);
+
+  }
+
+  footer img {
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
+    padding-right: 0px;
+    margin-top: 3px;
+    position: relative;
+    right: 100px
+  }
 }
