@@ -94,6 +94,10 @@ body {
   background-color: var(--secondary-color);
 }
 
+.isClicked {
+  background-color: var(--secondary-color);
+}
+
 /* Active class */
 .sidenav.active {
   right: 0;
