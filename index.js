@@ -82,15 +82,10 @@ function closeNav() {
   sidenav.classList.remove("active");
 }
 
-const article1 = document.querySelector(".burger");
-const back = document.querySelector(".back");
+const cards = document.querySelectorAll(".card");
 
-article1.addEventListener("click", function () {});
-
-const cards = document.querySelectorAll('.card');
-
-[...cards].forEach((card)=>{
-  card.addEventListener( 'click', function() {
-    card.classList.toggle('is-flipped');
+[...cards].forEach((card) => {
+  card.addEventListener("click", function () {
+    card.classList.toggle("is-flipped");
   });
 });
