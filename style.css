@@ -17,7 +17,7 @@ header {
   grid-template-columns: 1fr 5fr;
   grid-template-rows: 2fr 1fr;
   grid-column-gap: 0px;
-  top: 0
+  top: 0;
 }
 
 a {
@@ -121,7 +121,7 @@ body {
   border-radius: 10px;
 }
 
-article>h2 {
+article > h2 {
   margin-top: 10px;
   margin-bottom: 10px;
   font-family: "outfit";
@@ -157,6 +157,10 @@ img {
   transform-style: preserve-3d;
 }
 
+.back > img {
+  margin-bottom: 10px;
+}
+
 .back {
   transform: rotateY(180deg);
   background-color: white;
@@ -169,7 +173,7 @@ img {
   font-size: 0.9rem;
   position: absolute;
   top: 0px;
-  height: 93%;
+  height: 90%;
 }
 
 .card {
@@ -222,7 +226,6 @@ footer p {
   margin-left: 10px;
   margin-right: auto;
   color: var(--primary-color);
-
 }
 
 footer img {
