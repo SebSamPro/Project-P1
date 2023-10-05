@@ -86,3 +86,11 @@ const article1 = document.querySelector(".burger");
 const back = document.querySelector(".back");
 
 article1.addEventListener("click", function () {});
+
+const cards = document.querySelectorAll('.card');
+
+[...cards].forEach((card)=>{
+  card.addEventListener( 'click', function() {
+    card.classList.toggle('is-flipped');
+  });
+});
