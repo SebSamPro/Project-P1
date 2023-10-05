@@ -89,3 +89,12 @@ const cards = document.querySelectorAll(".card");
     card.classList.toggle("is-flipped");
   });
 });
+
+
+const button = document.querySelectorAll(".btn"); 
+  for (let i = 0; i < button.length; i++) {
+button[i].addEventListener('click', function() {
+   button[i].classList.toggle('isClicked')
+})};
+
+/* ✔️
