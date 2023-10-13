@@ -127,6 +127,10 @@ body {
 
 /* -- Section articles */
 
+.inactive {
+display: none;
+}
+
 .lookmore {
   margin-top: 2rem;
   font-weight: bold;
@@ -141,6 +145,7 @@ body {
   margin-bottom: 4rem;
   margin-top: 2rem;
   flex-wrap: wrap;
+  z-index: -1;
 }
 
 .card__face>h2 {
@@ -204,7 +209,7 @@ footer {
   width: 100%;
   padding: 0.3rem;
   align-items: center;
-  z-index: 1;
+
 }
 
 footer p {
